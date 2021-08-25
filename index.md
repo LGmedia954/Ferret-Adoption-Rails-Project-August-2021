@@ -28,7 +28,7 @@ First had to double check Yarn, which was already installed but I ran it again w
 
 After this, I tried "rails webpacker:install" again. This time, the installation worked. I started up my server, and I was good to go.
 
-Or so I thought. After I routed a simple About page, the server kept showing me very strange mailbox-oriented routes. It took some foul language and a bit searching to correctly name the problem: Active Storage.
+Or so I thought. After I routed a simple About page, the server kept showing me very strange mailbox-oriented routes. It took some foul language and a bit of searching to correctly name the problem: Active Storage.
 
 The fix was to suppress references to Active Storage in several files. This following solution was written for Rails 5: https://stackoverflow.com/questions/49813214/disable-active-storage-in-rails-5-2/50307393#50307393
 
